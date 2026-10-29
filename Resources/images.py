@@ -7,7 +7,7 @@ import numpy as np
 
 #ruta base para la lectura de las imagenes
 ruta_base = path.dirname(Path(__file__))
-st.write(ruta_base)
+# st.write(ruta_base)
 
 def imagen_f(title):
     """
