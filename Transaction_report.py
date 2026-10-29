@@ -4,7 +4,7 @@ Created on Thu Mar  5 15:32:54 2026
 
 @author: elizabeth.cervantes
 """
-import bootstrap #Carga la libreria de FISCO_Sources, siempre ponerlo
+# import bootstrap #Carga la libreria de FISCO_Sources, siempre ponerlo
 import streamlit as st
 import pandas as pd
 from io import BytesIO
@@ -13,7 +13,7 @@ import gc
 from datetime import datetime
 
 from pathlib import Path
-from FISCO_Sources import auth, crypto, images
+from Resources import auth, images
 
 # Configura el título y el ícono de la pestaña del navegador
 images.imagen_f("Transactions & Funds")
